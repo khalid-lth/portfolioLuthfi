@@ -1,0 +1,87 @@
+.user-view .name,
+.user-view .email{
+    text-shadow: 2px 2px 2px rgba(0, 0,0, 1);
+}
+
+.caption img {
+    height: 30% !important;
+    width: 30% !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.caption h5{
+    font-family: 'Epilogue',
+    sans-serif;
+    font-weight: 500;
+}
+
+.caption h5,
+.caption h4{
+    text-shadow: 2px 1px 1px rgba(0, 0,0, 0.5);
+}
+
+.slides .bg{
+    opacity: 0.4;
+}
+
+.slides a {
+    margin-top: 50px;
+}
+
+.bg img{
+    opacity: 0.4 !important;
+}
+
+.parallax-container{
+    height: 400px;
+}
+
+.screenshoot img{
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+section h4{
+    margin-bottom: 30px;
+}
+
+section{
+    padding: 20px 0;
+}
+
+.form{
+    background-color: rgb(206, 206, 206);
+}
+
+footer{
+    height: 60px;
+    padding-top: 20px;
+    background-color: rgb(99, 99, 99);
+    text-align: center;
+    color: white;
+}
+
+
+/* responsive Dekstop*/
+@media (min-width: 992px){
+    .caption img {
+        height: 15% !important;
+        width: 15% !important;
+    }
+
+    .slides a{
+        margin-top: 10px;
+    }
+
+    .parallax-container{
+    height: 550px;
+    }
+
+    .about h4 {
+        margin-bottom: 50px;
+    }
+
+    section h4 {
+        margin-bottom: 50px;
+    }
+}
