@@ -1,9 +1,9 @@
 .user-view .name,
-.user-view .email{
-    text-shadow: 2px 2px 2px rgba(0, 0,0, 1);
+.user-view .email {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 
-.brand-logo{
+.brand-logo {
     font-size: 25px !important;
 }
 
@@ -13,51 +13,72 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.caption h5{
+.caption h5 {
     font-family: 'Epilogue',
-    sans-serif;
+        sans-serif;
     font-weight: 500;
 }
 
 .caption h5,
-.caption h4{
-    text-shadow: 2px 1px 1px rgba(0, 0,0, 0.5);
+.caption h4 {
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.slides .bg{
+.slides .bg {
     opacity: 0.4;
 }
 
-.slides a {
-    margin-top: 50px;
+.slider .foto img {
+    width: 150px !important;
+    height: 150px !important;
 }
 
-.bg img{
+.slides a {
+    margin-top: 20px;
+}
+
+.about .paragraf p {
+    text-align: justify;
+}
+
+.about .skill {
+    text-align: left;
+}
+
+.about{
+    box-sizing: border-box;
+}
+
+.bg img {
     opacity: 0.4 !important;
 }
 
-.parallax-container{
+.parallax-container {
     height: 400px;
 }
 
-.screenshoot img{
+.parallax .card-reveal p {
+    text-align: justify;
+}
+
+.screenshoot img {
     margin-bottom: 15px;
     box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-section h4{
+section h4 {
     margin-bottom: 30px;
 }
 
-section{
+section {
     padding: 20px 0;
 }
 
-.form{
+.form {
     background-color: rgb(206, 206, 206);
 }
 
-footer{
+footer {
     height: 60px;
     padding-top: 20px;
     background-color: rgb(99, 99, 99);
@@ -67,18 +88,22 @@ footer{
 
 
 /* responsive Dekstop*/
-@media (min-width: 992px){
+@media (min-width: 992px) {
     .caption img {
         height: 15% !important;
         width: 15% !important;
     }
 
-    .slides a{
+    .slides a {
         margin-top: 10px;
     }
 
-    .parallax-container{
-    height: 550px;
+    .about .skill {
+        text-align: right;
+    }
+
+    .parallax-container {
+        height: 550px;
     }
 
     .about h4 {
